@@ -1,0 +1,23 @@
+{
+    "serviceName": "DemoDB",
+    "version": "12.1.0.2",
+    "level": "PAAS",
+    "edition": "EE",
+    "subscriptionType": "MONTHLY",
+    "trial": "false",
+    "description": "Description For Test Service",
+    "backupDestination": "BOTH",
+    "cloudStorageContainer" : "Storage-Examplpeidentitydomain/mycontainer1",
+    "cloudStorageUser" : "testuser1",
+    "cloudStoragePwd" : "password",
+    "shape": "oc3",
+    "parameters": [
+        {
+            "type": "db",
+            "usableStorage": "10",
+            "adminPassword": "mydbpassword",
+            "failoverDatabase": "no",
+            "vmPublicKeyText": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA6n9eY9J1qbpdzhiEzngcZG8YYnDGoVy3NdfVEsl8Xta1+O2NIPNsjYU7lNaBkvStELK3UrBHiA29k39JiwaD78fPhfn5V+vT9tKgU8I18BDvseWwgNXdb1cS+8e8RU7LVvXLuplO+GlvXGKpFbSeuGWfZTbtl3JAeqPxtt6xcJ5xCGIz891Xw9/4nSgMoqR85bPyBujTEL0MYQ+cvlV5SqaBsgF2CZTUTCQm32aQdXm57RdnKmJ8f6VToVtVzvL7ZaQU41kWI8IZTqtywnBEis6QM+lOhguBqudqVV+2dHMPBOet6nCIDq7ssUGopR8lRdgsK0VX2TsR64xJtWpkuw== rsa-key-20151201"
+        }
+                  ]
+}' 

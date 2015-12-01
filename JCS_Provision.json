@@ -1,0 +1,53 @@
+{
+    "serviceName" : "wlsdemo3",
+    "level" : "PAAS",
+    "subscriptionType" : "HOURLY",
+    "description" : "REST and cURL test instance creation",
+    "provisionOTD" : true,
+    "cloudStorageContainer" : "Storage-Exampleidentitydomain/STdemo6",
+    "cloudStorageUser" : "testuser1",
+    "cloudStoragePassword" : "password",
+ 
+    "parameters" : [
+    {
+        "type" : "weblogic",
+        "version" : "12.1.3.0.2",
+        "edition" : "EE",
+        "domainMode" : "PRODUCTION",
+        "managedServerCount" : "2",
+        "adminPort" : "7001",
+        "deploymentChannelPort" : "9001",
+        "securedAdminPort" : "7002",
+        "contentPort" : "8001",
+        "securedContentPort" : "8002",
+        "domainName" : "wlsdemo3_domain",
+        "clusterName" : "wlsdemo3_Cluster",
+        "adminUserName" : "weblogic",
+        "adminPassword" : "myweblogicadminpassword",
+        "nodeManagerPort" : "6555",
+        "nodeManagerUserName" : "weblogic",
+        "nodeManagerPassword" : "myweblogicadminpassword",
+        "dbServiceName" : "DemoDB",
+        "dbaName" : "SYS",
+        "dbaPassword" : "mydbpassword",
+        "shape" : "oc3",
+        "domainVolumeSize" : "10G",
+        "backupVolumeSize" : "50G",
+        "VMsPublicKey" : ""
+    },
+    {
+        "type" : "otd",
+        "adminUserName" : "otdAdmin",
+        "adminPassword" : "myotdadminpassword",
+        "listenerPortsEnabled" : true,
+        "listenerType" : "http",
+        "loadBalancingPolicy" : "least_connection_count",
+        "privilegedListenerPort" : "80",
+        "privilegedSecuredListenerPort" : "443",
+        "adminPort" : "8989",
+        "shape" : "oc3",
+        "VMsPublicKey" : "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAoeGyejWIrOLQ4Sy/RiNfM1OsA62vQmygFnzlPKbPyiQXevEjuWEmTl6eYa/4xzB1K4MXZDSXlBQqweA7pZhFuYeZ2jVkdqei4mJdqAJSysYsLmBCxj3f1pg+rX58pWe9m4+4z3g6UnRA9F1COJB7mgLyp89hJpZBg66UkpxkRGcjusqgWtWqKTm4w8wSNqMvLrrXvdW5x1+hpLciE+prjEtUEwZJ3TVBPRYvQYYkdnWFKhHOlKHGYals3FE1jEdqhemgBo+D9wTanjcvv8qF33qWNRiHeWQiG0m8sHMsf4L1hZONxybXaj5nmkVRTpeRfyo9N4Bgw52TsBssUvuZ6Q== rsa-key-20141030"
+ 
+    }
+]
+}
