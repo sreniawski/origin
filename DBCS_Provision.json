@@ -7,7 +7,7 @@
     "trial": "false",
     "description": "Description For Test Service",
     "backupDestination": "BOTH",
-    "cloudStorageContainer" : "Storage-Examplpeidentitydomain/mycontainer1",
+    "cloudStorageContainer" : "Storage-metcsgse00382/DBCScontainer",
     "cloudStorageUser" : "testuser1",
     "cloudStoragePwd" : "password",
     "shape": "oc3",

@@ -4,7 +4,7 @@
     "subscriptionType" : "HOURLY",
     "description" : "REST and cURL test instance creation",
     "provisionOTD" : true,
-    "cloudStorageContainer" : "Storage-Exampleidentitydomain/STdemo6",
+    "cloudStorageContainer" : "Storage-metcsgse00382/JCScontainer",
     "cloudStorageUser" : "testuser1",
     "cloudStoragePassword" : "password",
  
@@ -33,7 +33,7 @@
         "shape" : "oc3",
         "domainVolumeSize" : "10G",
         "backupVolumeSize" : "50G",
-        "VMsPublicKey" : ""
+        "VMsPublicKey" : "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA6n9eY9J1qbpdzhiEzngcZG8YYnDGoVy3NdfVEsl8Xta1+O2NIPNsjYU7lNaBkvStELK3UrBHiA29k39JiwaD78fPhfn5V+vT9tKgU8I18BDvseWwgNXdb1cS+8e8RU7LVvXLuplO+GlvXGKpFbSeuGWfZTbtl3JAeqPxtt6xcJ5xCGIz891Xw9/4nSgMoqR85bPyBujTEL0MYQ+cvlV5SqaBsgF2CZTUTCQm32aQdXm57RdnKmJ8f6VToVtVzvL7ZaQU41kWI8IZTqtywnBEis6QM+lOhguBqudqVV+2dHMPBOet6nCIDq7ssUGopR8lRdgsK0VX2TsR64xJtWpkuw== rsa-key-20151201"
     },
     {
         "type" : "otd",
